@@ -1,0 +1,32 @@
+// async function printWeather(){
+    // const response = await fetch (
+        //  `https://api.open-meteo.com/v1/forecast?latitude=44.49&longitude=20.27&current_weather=true`)
+
+
+    // console.log(response);
+// }
+// printWeather()
+
+const number = [25,5,7,1,22,4,87,14,8];
+// console.log("-----SORT-------");
+// console.log(number.sort((a,b) => a-b));
+// console.log(number.sort)
+
+// console.log('========Random==========');
+// number.sort(() => Math.random() - 0.5);
+// number.sort((a,b) => Math.random() - 0.5 );
+// console.log(number);
+
+console.log('\n======== myFindIndex =========');
+
+function myFindIndex (array,callback){
+    for (let i = 0; i < array.length;i++){
+        if (callback(array[i])){
+            return i
+        }
+    }
+    return -1;
+}
+
+let res = myFindIndex(number ,(item) => item ===22 );
+console.log(res)

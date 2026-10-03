@@ -181,7 +181,6 @@ function addProduct(name, category) {
     getActiveProducts().push(newProduct);
     renderProducts();
 }
-
 // Переключение состояния bought
 function toggleProduct(id) {
     const activeList = getActiveProducts();

@@ -1,7 +1,15 @@
 {
   "name": "vsc",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm install @google/genai",
+  "homepage": "https://github.com/shmel321z31-ctrl/vsc_g-66_Yanda#readme",
+  "bugs": {
+    "url": "https://github.com/shmel321z31-ctrl/vsc_g-66_Yanda/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmel321z31-ctrl/vsc_g-66_Yanda.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
@@ -10,6 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@google/genai": "^2.19.0"
+    "@google/genai": "^2.23.0",
+    "@inquirer/prompts": "^8.7.2",
+    "axios": "^1.20.0"
   }
 }
